@@ -1,0 +1,6 @@
+@ipSec_HostAddress = http://localhost:5277
+
+GET {{ipSec_HostAddress}}/weatherforecast/
+Accept: application/json
+
+
