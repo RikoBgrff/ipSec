@@ -361,3 +361,15 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+
+# Local settings and secrets
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# User secrets storage (used by dotnet user-secrets)
+**/secrets/
+
+# If you're using Entity Framework migration history in development
+Migrations/DesignTimeBuild/
